@@ -1,7 +1,6 @@
-
-
-  import firebase from "firebase";
-  const firebaseApp= firebase.initializeApp({
+import firebase from "firebase";
+import 'firebase/firestore';
+const firebaseApp= firebase.initializeApp({
     apiKey: "AIzaSyDNWL5-MW8epT_H11QNLAZKqGrR-7RzjtU",
     authDomain: "todo-create-app.firebaseapp.com",
     databaseURL: "https://todo-create-app.firebaseio.com",
